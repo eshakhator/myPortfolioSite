@@ -63,7 +63,20 @@ li a:active {
     background-color: #4a1a6a;
 }
 
+form {
+    color: #000050;
+    font-size: 25;
+}
+
+input {
+    font-size: 25;
+    margin-bottom: 15;
+    margin-right: 30;
+}
+
 .bubble {
     width: 40%;
-    padding: 20px 40px;
+    padding: 20px 45px;
+    display: inline-block;
+    vertical-align: top;
 }
