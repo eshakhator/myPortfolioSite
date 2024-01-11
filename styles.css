@@ -50,9 +50,8 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 7%;
+    padding: 20px 5%;
     text-decoration: none;
-    border-right: 1px solid #ffffff;
 }
 
 li a:hover {
