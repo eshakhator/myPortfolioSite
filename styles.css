@@ -1,6 +1,7 @@
 header {
     background-color: #adadff;
-    color: #330e4e;
+    color: #000050;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     font-size: 30;
@@ -8,7 +9,7 @@ header {
 
 body {
     background-color: #dadaff;
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     margin: 0;
     padding: 0;
     font-size: 25;
@@ -16,20 +17,33 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 40;
+    font-size: 50;
+    padding: 40 0 5 0;
 }
 
 h2 {
-    text-align: center;
-    font-size: 25;
+    color: #000050;
+    text-align: left;
+    font-size: 40;
 }
 
-.fox {
-    height: 800px;
-    width: 600px;
+.art {
+    height: 600px;
+    width: 450px;
 }
 
-h3, p {
+h3 {
+    color: #000050;
+    font-size: 35;
+    font-weight: bold;
+}
+
+h4 {
+    color: #000050;
+    font-size: 30;
+}
+
+p {
     color: #000050;
 }
 
@@ -38,11 +52,16 @@ ol {
 }
 
 ul {
+    color: #000050;
+}
+
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #000050;
+    font-size: 25;
 }
 
 li a {
@@ -77,5 +96,11 @@ input {
     width: 40%;
     padding: 20px 45px;
     display: inline-block;
+    vertical-align: top;
+}
+
+.box {
+    width: 80%;
+    padding: 20px 45px;
     vertical-align: top;
 }
